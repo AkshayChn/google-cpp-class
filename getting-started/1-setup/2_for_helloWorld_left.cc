@@ -8,9 +8,10 @@
 using namespace std;
 
 int main() {
-    for(int i = 0; i < 6; i++) {
+  for(int i = 0; i < 6; i++) {
     cout << setiosflags(ios::left);
     //this sets the flag
+    //sets it 6 times un-necessarily
       for(int j =0; j < 4; j++) {
         cout << setw(17) << "Hello World!";
       }
