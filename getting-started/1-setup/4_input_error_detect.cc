@@ -25,7 +25,7 @@ int main() {
       //changes the input_var value to 0
     }
     
-    if (input_var != -1) {
+    else if (input_var != -1) {
       cout << "You entered " << input_var  << endl;
     }
     
