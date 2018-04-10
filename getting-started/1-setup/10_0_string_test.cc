@@ -21,8 +21,6 @@ int main() {
   str2.replace(0,4,"Hello!");
   cout << str2 << endl;
   
-  str2.replace(0,6, 22, 2);
-  cout << str2 << endl;
   
   swap(str1, str2);
   cout << str1 << endl;
